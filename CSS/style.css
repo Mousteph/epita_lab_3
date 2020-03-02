@@ -289,7 +289,7 @@ h2 {
 
 .GlobalMercedes {
     padding-top: 1vw;
-    padding-bottom: 3vw;  
+    padding-bottom: 3vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -324,15 +324,6 @@ h2 {
     background-size: cover;
     background-image: url("../Images/renaultBack.jpg");
 }
-
-
-.rotate-vert-center{
-    -webkit-animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both;
-            animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both;
-}
-
-@-webkit-keyframes rotate-vert-center{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}100%{-webkit-transform:rotateY(360deg);transform:rotateY(360deg)}}@keyframes rotate-vert-center{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}100%{-webkit-transform:rotateY(360deg);transform:rotateY(360deg)}}
-
 
 .rotate-vert-center {
 	-webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
@@ -452,10 +443,6 @@ h2 {
     
     align-content: center;
     text-align: center;
-
-    /*background: url("../Images/te.mp4");
-    background-repeat: no-repeat;
-    background-size: cover;*/
 }
 
 .teamsTitleHome {
