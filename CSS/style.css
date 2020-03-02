@@ -1,0 +1,524 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+ul {
+    list-style:  none;
+}
+
+h1 {
+    font-size: 3vh;
+    font-size: 3vw;
+}
+
+h2 {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 200%;
+}
+
+#FirstBlock {
+    background-color: #0A1A37;
+    color: #FDFDFF;
+
+    text-align: center;
+    position: fixed;
+    
+    width: 20%;
+    height: 100%;  
+
+    font-family: 'Sarabun', sans-serif;
+}
+
+#ListFirstBlock {
+    padding-top: 50px;
+    font-size: 150%;
+}
+
+#ListFirstBlock li {
+    list-style: none;
+    margin-bottom: 20px;
+    height: 8vh;
+    line-height: 8vh;
+    overflow: hidden;
+}
+
+#ListFirstBlock a {
+    text-decoration: none;
+    color: #FDFDFF;
+    display: block;
+    height: 100%;
+}
+
+#ListFirstBlock a:hover{
+    background-color: #0D398C;
+}
+
+#inCar {
+    background-color: #0D398C;
+}
+
+
+.animation {
+    background: linear-gradient(-45deg, #ee7752, 
+    #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+#Mercedes {
+    background-color: white;
+
+    width: 80%;
+    float: right;
+
+    height: 100%;
+
+    text-align: center;
+}
+
+#Ferrari {
+    background-color: white;
+
+    width: 80%;
+    float: right;
+
+    height: 100%;
+
+    text-align: center;
+}
+
+#RedBull {
+    background-color: white;
+
+    width: 80%;
+    float: right;
+
+    height: 100%;
+
+    text-align: center;
+}
+
+#Renault {
+    background-color: white;
+
+    width: 80%;
+    float: right;
+
+    height: 100%;
+
+    text-align: center;
+}
+
+.carTeam {
+    width: 80%;
+    height: 80%;
+    padding-bottom: 5vw;
+}
+
+.topPilote {
+    display: inline;
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 170%;
+    font-family: 'Spartan' ;
+    background: linear-gradient(to right, rgba(155,164,164,1) 12%,
+     rgba(15,252,244,1) 50%, rgba(0,0,0,1) 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    float: left;
+}
+
+
+.bottomPilote {
+    display: inline;
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 170%;
+    font-family: 'Spartan' ;
+    padding-bottom: 60px;
+    float: left;
+}
+
+.mercedesLewisBottas{
+     background: linear-gradient(to right, rgba(155,164,164,1) 12%,
+     rgba(15,252,244,1) 50%, rgba(0,0,0,1) 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.ferrariVettelCharles{
+    background: linear-gradient(90deg, rgba(238,223,55,1) 12%, 
+    rgba(252,15,15,1) 50%, rgba(0,0,0,1) 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.redbullMaxlAlbon{
+    background: linear-gradient(90deg, rgba(2,11,145,1) 12%, 
+    rgba(252,15,15,1) 50%, rgba(0,0,0,1) 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.renaultDanielOcon{
+    background: linear-gradient(90deg, rgba(252,231,15,1) 12%,
+     rgba(0,0,0,1) 50%, rgba(252,231,15,1) 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+ 
+.lewis {
+  position: relative;
+  border:5px solid;
+  border-color: gray;
+  width:30%;
+  height:30%;
+  transition: 0.5s;
+  border-radius: 50%;
+  display: inline;
+}
+
+.bottas {
+    position: relative;
+    border:5px solid;
+    border-color: gray;
+    width:30%;
+    height:30%;
+    transition: 0.5s;
+    border-radius: 50%;
+    display: inline;
+}
+
+.teamHistory {
+    margin: 30px;
+    text-align: justify;
+    font-size: 130%;
+    font-family: 'Spartan';
+    word-spacing: 5px;
+    line-height: 130%;
+    padding-top: 30px;
+}
+
+.titleTeam {
+    font: 'Poppins', sans-serif;
+    font-size: 7vw;
+
+    padding-left: 13vw;
+    padding-bottom: 40vw;
+
+    letter-spacing: 2.2px;
+    word-spacing: 0.6px;
+
+    opacity: 0;
+}
+
+.titleTeamSuite {
+    letter-spacing: 2.2px;
+    word-spacing: 0.6px;
+
+    font: 'Poppins', sans-serif;
+    font-size: 7vw;
+}
+
+.mercedesTitle {
+    text-transform: uppercase;
+	background: linear-gradient(to right, rgba(155,164,164,1) 12%,
+     rgba(15,252,244,1) 50%, rgba(0,0,0,1) 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+
+.ferrariTitle {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(238,223,55,1) 12%, 
+    rgba(252,15,15,1) 50%, rgba(0,0,0,1) 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+.redbullTitle {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(2,11,145,1) 12%, 
+    rgba(252,15,15,1) 50%, rgba(0,0,0,1) 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+.renaultTitle {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(252,231,15,1) 12%,
+     rgba(0,0,0,1) 50%, rgba(252,231,15,1) 92%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+.logoTeam {
+    width: 60%;
+    height: 60%;
+    align-content: center;
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+}
+
+.GlobalMercedes {
+    padding-top: 1vw;
+    padding-bottom: 3vw;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Images/mercedesBack3.jpg");
+}
+
+
+.GlobalFerrari {
+    padding-top: 3vw;
+    padding-bottom: 3vw;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Images/ferrariBack2.jpg")
+}
+
+.GlobalRedBull {
+    padding-top: 3vw;
+    padding-bottom: 3vw;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Images/redbullBack2.jpg")
+}
+
+
+.GlobalRenault {
+    padding-top: 3vw;
+    padding-bottom: 3vw;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Images/renaultBack.jpg");
+}
+
+
+.rotate-vert-center{
+    -webkit-animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both;
+            animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both;
+}
+
+@-webkit-keyframes rotate-vert-center{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}100%{-webkit-transform:rotateY(360deg);transform:rotateY(360deg)}}@keyframes rotate-vert-center{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}100%{-webkit-transform:rotateY(360deg);transform:rotateY(360deg)}}
+
+
+.rotate-vert-center {
+	-webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+
+@-webkit-keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+
+.kenburns-top {
+	-webkit-animation: kenburns-top 5s ease-out both;
+	        animation: kenburns-top 5s ease-out both;
+}
+
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: bottom;
+            transform-origin: left;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: bottom;
+            transform-origin: left;
+  }
+}
+
+
+
+/*CSS For Circuit*/
+
+#Circuit {
+    width: 80%;
+    float: right;
+
+    height: 100%;
+
+    text-align: center;
+    letter-spacing: 2.2px;
+    word-spacing: 0.6px;
+
+    font-family: 'Spartan' ;
+    font-size: 2vw;
+}
+
+.circuitSize {
+    width: 80%;
+    height: 80%;
+}
+
+.infoCircuit {
+    margin: 30px;
+    text-align: justify;
+
+    letter-spacing: 2.2px;
+    word-spacing: 0.6px;
+
+    font-family: 'Spartan' ;
+    font-size: 2vw;
+}
+
+
+.whereGrandPrix {
+    letter-spacing: 2.2px;
+    word-spacing: 0.6px;
+
+    padding-top: 30px;
+    padding-left: 50px;
+
+    font-size: 10vw;
+    text-align: left;
+}
+
+
+/*Home page CSS*/
+
+#ThisIsHome {
+    background-color: #0A1A37;
+    color: white;
+    height: 100%;
+    
+    align-content: center;
+    text-align: center;
+
+    /*background: url("../Images/te.mp4");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.teamsTitleHome {
+    font-size: 2ch;
+}
+
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  margin-bottom: 50px;
+  font-size: 5vh;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    margin-top: 50px;
+    font-size: 5vh;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5vw;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5vw;
+}
+
+#nav a:hover{
+    background: linear-gradient(-45deg, #ee7752, 
+    #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+#footer a:hover {
+    background: linear-gradient(-45deg, #ee7752, 
+    #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+#testTitle {
+    font-size: 150px;
+
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
