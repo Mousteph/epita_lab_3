@@ -775,3 +775,75 @@ h2 {
     text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
   }
 }
+
+
+
+#arrowAnim {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  width: 120%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  width: 1vw;
+  height: 1vw;
+  border: 1vw solid;
+  transform: rotate(-135deg);
+}
+
+.arrowRenault {
+  border-color: rgba(252,231,15,1) transparent transparent rgba(252,231,15,1);
+}
+
+.arrowRedBull {
+  border-color: rgba(252,15,15,1) transparent transparent rgba(252,15,15,1);
+}
+
+.arrowFerrari {
+  border-color: rgba(238,223,55,1) transparent transparent rgba(238,223,55,1);
+}
+
+.arrowMercedes {
+  border-color: rgba(15,252,244,1) transparent transparent rgba(15,252,244,1);
+}
+
+
+.arrowSliding {
+  position: absolute;
+  -webkit-animation: slide 1.5s linear infinite; 
+          animation: slide 1.5s linear infinite;
+}
+
+.delay1 {
+  -webkit-animation-delay: 0.5s; 
+    animation-delay: 0.5s;
+}
+.delay2 {
+  -webkit-animation-delay: 1s; 
+    animation-delay: 1s;
+}
+.delay3 {
+  -webkit-animation-delay: 1.5s; 
+    animation-delay: 1.5s;
+}
+
+@-webkit-keyframes slide {
+    0% { opacity:0; transform: translateY(-3vw); }  
+   20% { opacity:1; transform: translateY(-3vw); } 
+   80% { opacity:1; transform: translateY(3vw); }  
+  100% { opacity:0; transform: translateY(3vw); } 
+}
+@keyframes slide {
+    0% { opacity:0; transform: translateY(-3vw); }  
+   20% { opacity:1; transform: translateY(-3vw); } 
+   80% { opacity:1; transform: translateY(3vw); }  
+  100% { opacity:0; transform: translateY(3vw); } 
+}
